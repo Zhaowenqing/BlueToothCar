@@ -1,0 +1,931 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 6140
+
+Current time: 	12/16/18 1:24:45 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1707x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	47872
+User directory: C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/47872/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/47872/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	119 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 372 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\47872\Desktop\Gauss\system_ability_2018\MIPSfpga_axi4_ddr\MIPSfpga_axi4.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// [GUI Memory]: 45 MB (+45195kb) [00:00:17]
+// [Engine Memory]: 356 MB (+221846kb) [00:00:17]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 402 MB. GUI used memory: 31 MB. Current time: 12/16/18 1:24:47 PM CST
+// [Engine Memory]: 402 MB (+29538kb) [00:00:22]
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 440 MB (+18447kb) [00:00:27]
+// [Engine Memory]: 486 MB (+25767kb) [00:00:32]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 548 MB (+39475kb) [00:00:41]
+// [GUI Memory]: 108 MB (+63375kb) [00:00:43]
+// [Engine Memory]: 706 MB (+136090kb) [00:00:43]
+// [GUI Memory]: 114 MB (+774kb) [00:00:43]
+// [GUI Memory]: 126 MB (+6561kb) [00:00:46]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/PWM_w_Int_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/my_mips_packaged'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 58 MB. Current time: 12/16/18 1:25:12 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: MIPSfpga_axi4; location: C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 930.051 ; gain = 373.602 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 49 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 27, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// cp:P (cl:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292746781A 
+// [Engine Memory]: 766 MB (+26704kb) [00:01:46]
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 766 MB. GUI used memory: 60 MB. Current time: 12/16/18 1:26:13 PM CST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 200 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 8, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// cp:P (cl:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd} 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding component instance block -- imgtec.org:user:MIPS_MicroAptiv_UP:1.3.1 - MIPS_MicroAptiv_UP_0 Adding component instance block -- xilinx.com:ip:ahblite_axi_bridge:3.0 - ahblite_axi_bridge_0 Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 805 MB (+306kb) [00:05:22]
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 811 MB. GUI used memory: 63 MB. Current time: 12/16/18 1:29:50 PM CST
+// [Engine Memory]: 846 MB (+881kb) [00:05:24]
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1038.277 ; gain = 108.227 
+// 'bb' command handler elapsed time: 9 seconds
+dismissDialog("Open Block Design"); // cp:P (cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_gpio_0 ; S_AXI ; Reg ; 0x1060_0000 ; 64K ; 0x1060_FFFF", 5, "axi_gpio_0", 0, false); // c:av (JViewport:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 26 seconds
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_gpio_2 ; S_AXI ; Reg ; 0x1080_0000 ; 64K ; 0x1080_FFFF", 10, "axi_gpio_2", 0, false); // c:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_gpio_1 ; S_AXI ; Reg ; 0x1070_0000 ; 64K ; 0x1070_FFFF", 9, "axi_gpio_1", 0, false); // c:av (JViewport:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_uart16550_0 ; S_AXI ; Reg ; 0x1040_0000 ; 64K ; 0x1040_FFFF", 6, "axi_uart16550_0", 0, false); // c:av (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 75 MB. Current time: 12/16/18 1:59:53 PM CST
+// Elapsed time: 1939 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 8, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// cp:P (cl:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd} 
+dismissDialog("Open Block Design"); // cp:P (cl:JFrame)
+// Elapsed time: 22 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 729, 105, 1089, 495, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name mainController_v1_0_project -directory C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.tmp/mainController_v1_0_project c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project' 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/PWM_w_Int_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/my_mips_packaged'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1038.277 ; gain = 0.000 
+// 'i' command handler elapsed time: 15 seconds
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: current_project MIPSfpga_axi4 
+// Elapsed time: 445 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_gpio_2 ; S_AXI ; Reg ; 0x1080_0000 ; 64K ; 0x1080_FFFF", 10, "axi_gpio_2", 0, false); // c:av (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 85 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 167 seconds
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_gpio_2 ; S_AXI ; Reg ; 0x1080_0000 ; 64K ; 0x1080_FFFF", 10, "axi_gpio_2", 0, false); // c:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_gpio_1 ; S_AXI ; Reg ; 0x1070_0000 ; 64K ; 0x1070_FFFF", 9, "axi_gpio_1", 0, false); // c:av (JViewport:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mainController (CarController_v1_0_Drt.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+// PAPropertyPanels.initPanels (CarController_v1_0_Drt.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mainController (CarController_v1_0_Drt.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+// Tcl Message: current_project mainController_v1_0_project 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mainController (CarController_v1_0_Drt.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("CarController_v1_0_Drt.v", 181, 147); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 228, 171); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 228, 169); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 234, 345); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 234, 345, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CarController_v1_0_Drt.v", 291, 337); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 290, 347); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 293, 369); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 124 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 322, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Language Templates]", 3, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// [GUI Memory]: 136 MB (+3581kb) [00:55:42]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cl:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES, "Add or create design sources"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // w:JideButton (CommandBar:DockableBar, b:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // ab:JMenuItem (ai:JPopupMenu, b:g)
+// I:ag (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "SIM1"); // ao:JTextField (JPanel:JComponent, I:ag)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:ag)
+dismissDialog("Create Source File"); // I:ag (b:g)
+// Tcl Message: file mkdir C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.srcs/sim_1/new 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'f' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // b:g (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.srcs/sim_1/new/SIM1.v w ] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.srcs/sim_1/new/SIM1.v 
+// L:ag (cl:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, L:ag)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // L:ag (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+minimizeFrame(PAResourceOtoP.PAViews_TEMPLATES, "Templates"); // ap:DockableFrame (FrameContainer:JideTabbedPane, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 6, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 6, true, false, false, false, false, true); // w:Y (v:H, cl:JFrame) - Double Click - Node
+unMinimizeFrame(PAResourceOtoP.PAViews_TEMPLATES, "Templates"); // ap:DockableFrame
+// [GUI Memory]: 143 MB (+2kb) [00:56:22]
+expandTree(PAResourceTtoZ.TemplateView_TEMPLATES_TREE, "[Templates, Verilog]", 0); // k:JTree (JViewport:JComponent, cl:JFrame)
+collapseTree(PAResourceTtoZ.TemplateView_TEMPLATES_TREE, "[Templates, Verilog]", 0); // k:JTree (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 6, true); // w:Y (v:H, cl:JFrame) - Node
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+dismissDialog("Project Settings"); // k:br (cl:JFrame)
+// [GUI Memory]: 150 MB (+41kb) [00:56:44]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 10, true); // w:Y (v:H, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 10, true); // w:Y (v:H, cl:JFrame) - Node
+expandTree(PAResourceTtoZ.TemplateView_TEMPLATES_TREE, "[Templates, Debug]", 3); // k:JTree (JViewport:JComponent, cl:JFrame)
+collapseTree(PAResourceTtoZ.TemplateView_TEMPLATES_TREE, "[Templates, Debug]", 3); // k:JTree (JViewport:JComponent, cl:JFrame)
+expandTree(PAResourceTtoZ.TemplateView_TEMPLATES_TREE, "[Templates, VHDL]", 1); // k:JTree (JViewport:JComponent, cl:JFrame)
+expandTree(PAResourceTtoZ.TemplateView_TEMPLATES_TREE, "[Templates, VHDL, Simulation Constructs]", 5); // k:JTree (JViewport:JComponent, cl:JFrame)
+closeFrame(PAResourceOtoP.PAViews_TEMPLATES, "Templates"); // ap:DockableFrame (FrameContainer:JideTabbedPane, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 5, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 5, false); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // A:k (H:JPanel, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 7); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM1 (SIM1.v)]", 9, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, SIM1 (SIM1.v)]", 9, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("SIM1.v", 157, 380); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 157, 370); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 158, 372); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CarController_v1_0_Drt.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 130, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 32, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CarController_v1_0_Drt.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SIM1.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 63, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 129, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 177, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 114, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 183, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 145, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 191, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 200, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 236, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 302, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 416, 251); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 450, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 526, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 592, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 644, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 443, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("SIM1.v", 155, 425); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 155, 425, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 57, 391); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 57, 391, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 213, 425); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 213, 425, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SIM1.v", 217, 425); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 217, 425, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 84, 409); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 233, 443); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 79, 428); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 309, 451); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 309, 451, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 214, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 395, 403); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 395, 403, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 181, 390); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 361, 425); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 448, 428); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 448, 428, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 257, 412); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 493, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 257, 429); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CarController_v1_0_Drt.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 239, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 237, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 244, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 251, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 261, 193); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 275, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SIM1.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("SIM1.v", 589, 412); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 589, 412, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 129, 393); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 35, 372); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 35, 372, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SIM1.v", 40, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 40, 392, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SIM1.v", 40, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 35, 374); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 35, 374, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 35, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 35, 392, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 33, 355); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 33, 355, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 27, 337); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 27, 337, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SIM1.v", 32, 337); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 32, 337, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 33, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 33, 311, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 189, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 175, 357); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectCodeEditor("SIM1.v", 247, 369); // bj:J (JPanel:JComponent, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files]", 8); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, SIM1.v]", 9, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Syntax Error Files, SIM1.v]", 9, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near [. [c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.srcs/sim_1/new/SIM1.v:32]. ]", 11, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\users\47872\desktop\gauss\system_ability_2018\mipsfpga_axi4_ddr\mipsfpga_axi4.tmp\maincontroller_v1_0_project\mainController_v1_0_project.srcs\sim_1\new\SIM1.v;-;;-;16;-;line;-;32;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 177, 405); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 184, 409); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 181, 407); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 212, 405); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 437, 407); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 475, 360); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("SIM1.v", 115, 393); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 612, 413); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("SIM1.v", 62, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 62, 215, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SIM1.v", 74, 406); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 69, 421); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 87, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 99, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 99, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 104, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 146, 269); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SIM1.v", 145, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 106, 419); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near endmodule. [c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.srcs/sim_1/new/SIM1.v:36]. ]", 11, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\users\47872\desktop\gauss\system_ability_2018\mipsfpga_axi4_ddr\mipsfpga_axi4.tmp\maincontroller_v1_0_project\mainController_v1_0_project.srcs\sim_1\new\SIM1.v;-;;-;16;-;line;-;36;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 109, 415); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SIM1.v", 143, 404); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectCodeEditor("SIM1.v", 63, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 63, 217, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 68, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("SIM1.v", 148, 423); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 105, 299); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 105, 299, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 157, 417); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 162, 427); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 88 MB. Current time: 12/16/18 2:29:56 PM CST
+// Elapsed time: 186 seconds
+selectCodeEditor("SIM1.v", 152, 419); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("SIM1.v", 117, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 136, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 139, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 153, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 141, 421); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 127, 395); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 103, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 109, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 146, 421); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 151, 409); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 161, 427); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 161, 427); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 120, 431); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 85, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 101, 443); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 141, 444); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 135, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 135, 441); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 129, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 119, 419); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 73, 450); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 131, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 1, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 73, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 118, 439); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 135, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 135, 445); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 51, 447); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 73, 444); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 186, 399); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 195, 395); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 12, false); // w:Y (v:H, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'SIM1' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav' 
+// Tcl Message: "xvlog -m64 --relax -prj SIM1_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot SIM1_behav  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav/xsim.dir/SIM1_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav/xsim.dir/SIM1_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Dec 16 14:32:39 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Sun Dec 16 14:32:39 2018... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1073.012 ; gain = 0.000 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SIM1_behav -key {Behavioral:sim_1:Functional:SIM1} -tclbatch {SIM1.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source SIM1.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SIM1_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1107.293 ; gain = 34.281 
+// 'c' command handler elapsed time: 17 seconds
+// Elapsed time: 17 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// Elapsed time: 150 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 13, 30); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 107 MB. Current time: 12/16/18 2:35:14 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 97 MB. Current time: 12/16/18 2:35:15 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:16 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:19 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:19 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:19 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:19 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:19 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 9, -20); // o:a (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:25 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 15, 70); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 17, -16); // o:a (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:27 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 14, -22); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 52, -23); // o:a (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 45, -22); // o:a (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:31 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 16, -22); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 14, -29); // o:a (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:33 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:33 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:33 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:33 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:34 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:36 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 29, 10); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:40 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:40 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:40 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 72, 4); // o:a (JViewport:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:41 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:41 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 93, 69); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:46 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:56 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:35:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:36:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:36:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:36:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:36:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:36:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 90 MB. Current time: 12/16/18 2:36:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CarController_v1_0_Drt.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SIM1.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("SIM1.v", 115, 452); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 90, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 214, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 12, false); // w:Y (v:H, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1109.449 ; gain = 0.000 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'SIM1' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings. 
+// a:a (cl:JFrame): Critical Messages: addNotify
+// 'c' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-2216] Analyzing Verilog file c:/users/47872/desktop/gauss/system_ability_2018/ip_repo/carcontroller_1.0/hdl/CarController_v1_0_Drt.v into library work [c:/users/47872/desktop/gauss/system_ability_2018/ip_repo/carcontroller_1.0/hdl/CarController_v1_0_Drt.v:1]. ]", 21, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;c:\users\47872\desktop\gauss\system_ability_2018\ip_repo\carcontroller_1.0\hdl\CarController_v1_0_Drt.v;-;;-;16;-;line;-;1;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cl:JFrame): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_simulation. , [USF-XSim 62] 'compile' step failed with error(s) while executing 'C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.. ]", 2, false); // ae:k (JViewport:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 265, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - mainController", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CarController_v1_0_Drt.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SIM1.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("SIM1.v", 65, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 65, 219, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 117, 424); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 117, 424, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 171, 429); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 171, 429, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SIM1.v", 177, 428); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SIM1.v", 177, 428, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+typeControlKey((HResource) null, "SIM1.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 12, false); // w:Y (v:H, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'SIM1' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav' 
+// Tcl Message: Vivado Simulator 2015.2 Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto d63bfff78d1944619c4c2643a6272baf --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SIM1_behav xil_defaultlib.SIM1 xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. 
+// Tcl Message: Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module xil_defaultlib.divider Compiling module xil_defaultlib.DRTController Compiling module xil_defaultlib.PWM Compiling module xil_defaultlib.mainController Compiling module xil_defaultlib.SIM1 Compiling module xil_defaultlib.glbl Waiting for 2 sub-compilation(s) to finish... Built simulation snapshot SIM1_behav 
+// Tcl Message:  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav/xsim.dir/SIM1_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav/xsim.dir/SIM1_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Dec 16 14:37:51 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Sun Dec 16 14:37:51 2018... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1109.449 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "SIM1_behav -key {Behavioral:sim_1:Functional:SIM1} -tclbatch {SIM1.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source SIM1.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'SIM1_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1109.449 ; gain = 0.000 
+// 'c' command handler elapsed time: 12 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+selectComboBox(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "s", 0); // b:f (a:JPanel, cl:JFrame)
+setText(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "1"); // d:ao (a:JPanel, cl:JFrame)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run all 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 130 MB. Current time: 12/16/18 2:38:14 PM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// cp:P (cl:JFrame):  Run All : addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 883 MB. GUI used memory: 115 MB. Current time: 12/16/18 2:38:17 PM CST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Elapsed time: 16 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, cp:P)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Elapsed time: 14 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, cp:P)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CarController_v1_0_Drt.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 226, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 229, 448); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 177, 411); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 177, 411, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 109 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 228, 348); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 227, 367); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 227, 394); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 229, 407); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 226, 425); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 227, 395); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 242, 462); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 99 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 263, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CarController_v1_0_Drt.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 241, 362); // bj:J (JPanel:JComponent, cl:JFrame)

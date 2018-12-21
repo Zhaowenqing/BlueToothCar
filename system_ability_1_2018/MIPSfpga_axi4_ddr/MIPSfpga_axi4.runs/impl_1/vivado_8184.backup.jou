@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Dec 17 16:45:46 2018
+# Process ID: 23076
+# Log file: E:/STUDY/BlueToothCar/system_ability_1_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/MIPSfpga_system_wrapper.vdi
+# Journal file: E:/STUDY/BlueToothCar/system_ability_1_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MIPSfpga_system_wrapper.tcl -notrace

@@ -1,0 +1,107 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port RX -pg 1 -y 1360 -defaultsOSRD
+preplace port UART_TXD_IN -pg 1 -y 1610 -defaultsOSRD -right
+preplace port JB1 -pg 1 -y 620 -defaultsOSRD
+preplace port UART_RXD_OUT -pg 1 -y 1540 -defaultsOSRD
+preplace port CPU_RESETN -pg 1 -y 660 -defaultsOSRD
+preplace port JB2 -pg 1 -y 600 -defaultsOSRD
+preplace port JB3 -pg 1 -y 490 -defaultsOSRD
+preplace port JB4 -pg 1 -y 580 -defaultsOSRD
+preplace port CLK100MHZ -pg 1 -y 920 -defaultsOSRD
+preplace port clk1K -pg 1 -y 120 -defaultsOSRD
+preplace port JB7 -pg 1 -y 640 -defaultsOSRD
+preplace port DDR2_SDRAM -pg 1 -y 700 -defaultsOSRD
+preplace port DIR_latch -pg 1 -y 80 -defaultsOSRD
+preplace port JB8 -pg 1 -y 500 -defaultsOSRD
+preplace port DIR_serial -pg 1 -y 40 -defaultsOSRD
+preplace port TX -pg 1 -y 1320 -defaultsOSRD -right
+preplace port DIR_enable -pg 1 -y 60 -defaultsOSRD
+preplace portBus SPD_out -pg 1 -y 100 -defaultsOSRD
+preplace portBus LED -pg 1 -y 560 -defaultsOSRD
+preplace portBus PWMs -pg 1 -y 990 -defaultsOSRD
+preplace inst PWM_w_Int_0 -pg 1 -lvl 6 -y 980 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 6 -y 740 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 6 -y 1160 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst mainController_0 -pg 1 -lvl 7 -y 80 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -y 1020 -defaultsOSRD
+preplace inst MIPS_MicroAptiv_UP_0 -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 2 -y 750 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 6 -y 550 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 1100 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 5 -y 1360 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -y 400 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 6 -y 310 -defaultsOSRD
+preplace inst xlconstant_4 -pg 1 -lvl 4 -y 1020 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 5 -y 1210 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 2 -y 500 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 7 -y 430 -defaultsOSRD
+preplace inst ahblite_axi_bridge_0 -pg 1 -lvl 4 -y 530 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 6 -y 170 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 4 -y 780 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -y 740 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y 920 -defaultsOSRD
+preplace inst axi_uart16550_0 -pg 1 -lvl 6 -y 1330 -defaultsOSRD
+preplace inst axi_uart16550_1 -pg 1 -lvl 6 -y 1470 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 6 -y 430 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 2 -y 650 -defaultsOSRD
+preplace netloc mainController_0_DIR_latch 1 7 1 N
+preplace netloc MIPS_MicroAptiv_UP_0_HCLK 1 3 4 820 630 1110 1080 1840 60 NJ
+preplace netloc xlconstant_1_dout 1 1 1 270
+preplace netloc sin_1 1 6 2 N 1320 NJ
+preplace netloc EJ_TDI_1 1 0 3 NJ 600 NJ 580 590
+preplace netloc mig_7series_0_DDR2 1 6 2 N 700 NJ
+preplace netloc mainController_0_clk1K 1 7 1 N
+preplace netloc xlconstant_2_dout 1 2 1 610
+preplace netloc mainController_0_DIR_enable 1 7 1 N
+preplace netloc axi_uart16550_1_sout 1 6 2 2190 1620 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 6 1 N
+preplace netloc UART_TXD_IN_1 1 6 2 2200 1610 NJ
+preplace netloc axi_interconnect_0_M02_AXI 1 5 1 1820
+preplace netloc xlconcat_1_dout 1 5 1 1890
+preplace netloc axi_uart16550_0_sout 1 6 2 2200 1360 NJ
+preplace netloc SI_ColdReset_1 1 0 2 NJ 500 N
+preplace netloc util_vector_logic_0_Res 1 2 1 600
+preplace netloc EJ_TCK_1 1 0 2 NJ 650 N
+preplace netloc axi_gpio_2_gpio_io_o 1 6 1 2190
+preplace netloc PWM_w_Int_0_Interrupt_out 1 4 3 1140 1070 NJ 910 2190
+preplace netloc EJ_TRST_N_1 1 0 3 NJ 640 NJ 600 550
+preplace netloc axi_interconnect_0_M07_AXI 1 5 1 1750
+preplace netloc axi_gpio_1_gpio_io_o 1 6 1 2200
+preplace netloc mig_7series_0_ui_clk 1 4 3 1140 1050 NJ 830 2190
+preplace netloc axi_interconnect_0_M08_AXI 1 5 1 1780
+preplace netloc axi_interconnect_0_M04_AXI 1 5 1 1830
+preplace netloc mainController_0_SPD_out 1 7 1 N
+preplace netloc xlconcat_0_dout 1 2 1 600
+preplace netloc axi_gpio_0_gpio_io_o 1 6 2 NJ 560 N
+preplace netloc MIPS_MicroAptiv_UP_0_EJ_TDO 1 3 5 NJ 650 NJ 460 NJ 620 NJ 620 2410
+preplace netloc xlconstant_0_dout 1 3 1 830
+preplace netloc ahblite_axi_bridge_0_M_AXI 1 4 1 1130
+preplace netloc mainController_0_DIR_serial 1 7 1 N
+preplace netloc clk_wiz_0_clk_out1 1 2 1 570
+preplace netloc axi_interconnect_0_M05_AXI 1 5 1 1810
+preplace netloc axi_interconnect_0_M00_AXI 1 5 1 1770
+preplace netloc xlconstant_4_dout 1 4 1 1080
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 3 4 820 690 NJ 1020 NJ 650 2190
+preplace netloc clk_wiz_0_clk_out2 1 2 4 NJ 930 NJ 930 NJ 1060 1870
+preplace netloc CLK100MHZ_1 1 0 2 NJ 920 N
+preplace netloc EJ_TMS_1 1 0 3 NJ 620 NJ 590 560
+preplace netloc axi_interconnect_0_M01_AXI 1 5 1 1760
+preplace netloc PWM_w_Int_0_LEDs 1 6 2 N 990 NJ
+preplace netloc util_vector_logic_2_Res 1 4 1 1080
+preplace netloc util_vector_logic_1_Res 1 2 1 590
+preplace netloc ahblite_axi_bridge_0_s_ahb_hready_out 1 3 1 820
+preplace netloc axi_interconnect_0_M06_AXI 1 5 1 1790
+preplace netloc axi_intc_0_irq 1 1 6 290 980 NJ 980 NJ 1090 NJ 1090 NJ 1080 2190
+preplace netloc SI_Reset_1 1 0 6 NJ 660 290 700 NJ 700 NJ 700 NJ 1030 NJ
+preplace netloc util_ds_buf_0_BUFG_O 1 2 1 580
+preplace netloc MIPS_MicroAptiv_UP_0_HRESETn 1 3 3 830 640 1130 1040 1860
+preplace netloc axi_interconnect_0_M03_AXI 1 5 1 1790
+preplace netloc MIPS_MicroAptiv_UP_0_ahblite 1 3 1 810
+preplace netloc xlconstant_3_dout 1 5 1 1810
+levelinfo -pg 1 110 200 440 710 960 1610 2060 2310 2430
+",
+}
+0

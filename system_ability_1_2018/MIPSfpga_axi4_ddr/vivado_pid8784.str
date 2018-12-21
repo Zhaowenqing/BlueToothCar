@@ -1,0 +1,1056 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 8784
+
+Current time: 	12/16/18 2:46:35 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1707x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	47872
+User directory: C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/47872/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/47872/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	137 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 381 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\47872\Desktop\Gauss\system_ability_2018\MIPSfpga_axi4_ddr\MIPSfpga_axi4.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 62 MB (+62822kb) [00:00:08]
+// [Engine Memory]: 374 MB (+240802kb) [00:00:08]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 413 MB. GUI used memory: 28 MB. Current time: 12/16/18 2:46:37 PM CST
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 435 MB (+43794kb) [00:00:13]
+// [Engine Memory]: 481 MB (+25459kb) [00:00:18]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 526 MB (+21903kb) [00:00:23]
+// [GUI Memory]: 102 MB (+38508kb) [00:00:25]
+// [Engine Memory]: 704 MB (+159666kb) [00:00:25]
+// [GUI Memory]: 118 MB (+11029kb) [00:00:25]
+// [GUI Memory]: 128 MB (+4054kb) [00:00:27]
+// [Engine Memory]: 740 MB (+841kb) [00:00:27]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 58 MB. Current time: 12/16/18 2:46:54 PM CST
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/PWM_w_Int_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/my_mips_packaged'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: MIPSfpga_axi4; location: C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 959.422 ; gain = 390.305 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 8, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// cp:P (cl:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd} 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding component instance block -- imgtec.org:user:MIPS_MicroAptiv_UP:1.3.1 - MIPS_MicroAptiv_UP_0 Adding component instance block -- xilinx.com:ip:ahblite_axi_bridge:3.0 - ahblite_axi_bridge_0 Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 770 MB. GUI used memory: 57 MB. Current time: 12/16/18 2:47:12 PM CST
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// [Engine Memory]: 799 MB (+23102kb) [00:00:51]
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1021.875 ; gain = 62.453 
+// 'bb' command handler elapsed time: 8 seconds
+dismissDialog("Open Block Design"); // cp:P (cl:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 798, 31, 1089, 486, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // X:JMenu (ai:JPopupMenu, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:ag (cl:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:ag)
+// cp:P (cl:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name mainController_v1_0_project -directory C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.tmp/mainController_v1_0_project c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project' 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/PWM_w_Int_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/my_mips_packaged'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1021.875 ; gain = 0.000 
+// 'i' command handler elapsed time: 9 seconds
+dismissDialog("Edit in IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mainController (CarController_v1_0_Drt.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mainController (CarController_v1_0_Drt.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mainController (CarController_v1_0_Drt.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("CarController_v1_0_Drt.v", 230, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 228, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 231, 402); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 227, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 227, 386); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 228, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 227, 367); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 227, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 266, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 299, 283); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 262, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CarController_v1_0_Drt.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 285, 385); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "CarController_v1_0_Drt.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("CarController_v1_0_Drt.v", 291, 341); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 292, 352); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 293, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 297, 338); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 301, 349); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 299, 358); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 301, 370); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 306, 350); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 303, 336); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 58 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 329, 323); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 325, 317); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 332, 300); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 341, 283); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 339, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 337, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 339, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 343, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 369, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 375, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 384, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 389, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 394, 123); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 365, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 35, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 35, 81, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 153, 137); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 159, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 214, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 149, 279); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 149, 281, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CarController_v1_0_Drt.v", 193, 282); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 193, 282, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CarController_v1_0_Drt.v", 254, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 198, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 235, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 237, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 99 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 239, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 133, 346); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 133, 346, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 105 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 419, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 284, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 285, 356); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 258, 359); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 258, 333); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 125 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 139, 89); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 139, 89, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("CarController_v1_0_Drt.v", 169, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 169, 217, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CarController_v1_0_Drt.v", 231, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 231, 220, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CarController_v1_0_Drt.v", 326, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 326, 218, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CarController_v1_0_Drt.v", 421, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 421, 220, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CarController_v1_0_Drt.v", 579, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 579, 214, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("CarController_v1_0_Drt.v", 686, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 116, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 26, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec 16 14:57:35 2018] Launched synth_1... Run output will be captured here: c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.runs/synth_1/runme.log [Sun Dec 16 14:57:35 2018] Launched impl_1... Run output will be captured here: c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cl:JFrame)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_Delete Files", "Delete Files"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Sun Dec 16 14:57:47 2018] Launched synth_1... Run output will be captured here: c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectCodeEditor("CarController_v1_0_Drt.v", 364, 355); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 74 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Synthesis Completed"); // Q:ap (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package IP..."); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// P:g (cl:JFrame): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition.. Note: All sources to be packaged must be located at or below the specified directory."); // b:a (a:G, P:g)
+// cp:P (P:g):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+dismissDialog("Analyze source files for top modules"); // cp:P (P:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+selectButton("PAResourceItoN.NewIpWizard_IP_DEFINITION_ALREADY_EXISTS_IN_Overwrite", "Overwrite"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, P:g)
+// 'r' command handler elapsed time: 9 seconds
+dismissDialog("Create and Package New IP"); // P:g (cl:JFrame)
+// cp:P (cl:JFrame):  IP Packager : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: ipx::package_project -root_dir C:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0 -vendor xilinx.com -library user -taxonomy /UserIP -force 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_UNLOAD_CORE
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - mainController"); // F:aK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+dismissDialog("IP Packager"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // T:v (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // T:v (JViewport:JComponent, cl:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // T:v (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cl:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// cp:P (cl:JFrame):  Package IP : addNotify
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0' 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: FILE_SET_CHANGE
+closeMainWindow("mainController_v1_0_project - [c:/users/47872/desktop/gauss/system_ability_2018/mipsfpga_axi4_ddr/mipsfpga_axi4.tmp/maincontroller_v1_0_project/mainController_v1_0_project.xpr] - Vivado 2015.2"); // cl:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// ap:bI (cl:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // ap:bI (cl:JFrame)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 836 MB. GUI used memory: 81 MB. Current time: 12/16/18 2:59:48 PM CST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // i:l (JPanel:JComponent, cl:JFrame)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("RDIResource.ProgressDialog_BACKGROUND_TASK_RUNNING_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1021.875 ; gain = 0.000 
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 616, 128); // dQ:J (JPanel:JComponent, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+// TclEventType: IP_SUMMARY_RESULTS
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "MIPSfpga_system ; false ;  ; MIPSfpga_system ;  ;  ;  ;  ;  ;  ; ", 0, "MIPSfpga_system", 0, true); // C:av (JViewport:JComponent, cl:JFrame) - Node
+collapseTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "MIPSfpga_system ; false ;  ; MIPSfpga_system ;  ;  ;  ;  ;  ;  ; ", 0); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTableHeader(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "Upgrade", 1); // C:av (JViewport:JComponent, cl:JFrame)
+expandTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "MIPSfpga_system ; true ;  ; MIPSfpga_system ;  ;  ;  ;  ;  ;  ; ", 0); // C:av (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/PWM_w_Int_0 ; false ; MIPSfpga_system_PWM_w_Int_0_0 [PWM_w_Int_v1.0] (Up-to-date) ; No changes required ;  ;  ; PWM_w_Int_v1.0 ; 1.0 (Rev. 2) ; 1.0 (Rev. 2) ; Included ; xc7a100tcsg324-1", 22, "false", 1, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectTreeTable(PAResourceItoN.IPStatusTablePanel_IP_STATUS_TABLE, "/blk_mem_gen_0 ; false ; MIPSfpga_system_blk_mem_gen_0_0 [Block Memory Generator] (Up-to-date) ; No changes required ; MIPSfpga_system_blk_mem_gen_0_0 [Block Memory Generator] (Up-to-date) ;  ; Block Memory Generator ; 8.2 (Rev. 6) ; 8.2 (Rev. 6) ; Included ; xc7a100tcsg324-1", 21, "/blk_mem_gen_0", 0, false); // C:av (JViewport:JComponent, cl:JFrame)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// [Engine Memory]: 841 MB (+1606kb) [00:13:58]
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// cp:P (cl:JFrame):  Refresh IP Catalog : addNotify
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/CarController_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/PWM_w_Int_1.0'. 
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/47872/Desktop/Gauss/system_ability_2018/ip_repo/my_mips_packaged'. 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 854 MB. GUI used memory: 84 MB. Current time: 12/16/18 3:00:29 PM CST
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+dismissDialog("Refresh IP Catalog"); // cp:P (cl:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:mainController:1.0 [get_ips  MIPSfpga_system_mainController_0_0] 
+// Tcl Message: Upgrading 'C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd' 
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 887 MB (+4741kb) [00:14:08]
+// cp:P (cl:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 134 MB (+44kb) [00:14:10]
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded MIPSfpga_system_mainController_0_0 from mainController_v1_0 1.0 to mainController_v1_0 1.0 INFO: [IP_Flow 19-3471] Wrote upgrade log to 'c:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/ip/MIPSfpga_system_mainController_0_0/MIPSfpga_system_mainController_0_0.upgrade_log'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: Wrote  : <C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd>  
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1092.125 ; gain = 70.250 
+// Elapsed time: 13 seconds
+dismissDialog("Upgrade IP"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // i:l (JPanel:JComponent, cl:JFrame)
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+// [GUI Memory]: 141 MB (+68kb) [00:14:28]
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Message: report_ip_status -name ip_status  
+// TclEventType: IP_SUMMARY_RESULTS
+// cp:P (cl:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // cp:P (cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 103, 82, 1089, 486, false, false, false, true, false); // ex:aK (TdiGroup:JideTabbedPane, cl:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "Validate Design"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design 
+// cp:P (cl:JFrame):  Validate Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 961 MB (+30291kb) [00:14:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 961 MB. GUI used memory: 82 MB. Current time: 12/16/18 3:01:24 PM CST
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:46 . Memory (MB): peak = 1123.934 ; gain = 31.809 
+// di:a (cl:JFrame): Critical Messages: addNotify
+// Elapsed time: 46 seconds
+dismissDialog("Validate Design"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 71 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, di:a)
+dismissDialog("Critical Messages"); // di:a (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 26, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aR:ah (cl:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:ah)
+// cp:P (cl:JFrame):  Save Constraints : addNotify
+dismissDialog("Save Project"); // aR:ah (cl:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd>  
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'bQ' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: INFO: [BD 41-1662] The design 'MIPSfpga_system.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Verilog Output written to : C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.v Verilog Output written to : C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system_wrapper.v 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : <C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd>  
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_MIPS_MicroAptiv_UP_0_0'... 
+// HMemoryUtils.trashcanNow. Engine heap size: 994 MB. GUI used memory: 56 MB. Current time: 12/16/18 3:03:19 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block MIPS_MicroAptiv_UP_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_ahblite_axi_bridge_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ahblite_axi_bridge_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_xbar_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_0_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_blk_mem_gen_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_axi_bram_ctrl_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_util_ds_buf_0_0'... 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_2_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_clk_wiz_0_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_clk_wiz_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_0_0'... 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_1_0'... 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_0_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_3_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_mig_7series_0_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_mig_7series_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_util_vector_logic_2_0'... 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_2 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_PWM_w_Int_0_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block PWM_w_Int_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_axi_intc_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_intc_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_xlconcat_0_1'... INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_xlconstant_1_1'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_4 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_axi_uart16550_0_1'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_axi_uart16550_0_1'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_1 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_2_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_2_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_2 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_mainController_0_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block mainController_0 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_axi_gpio_1_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'MIPSfpga_system_axi_gpio_1_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_ds . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m00_couplers/auto_pc . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_1'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m01_couplers/auto_ds . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_2'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_ds . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_1'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m02_couplers/auto_pc . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_cc_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m03_couplers/auto_cc . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_3'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_ds . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_2'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m04_couplers/auto_pc . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_4'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_ds . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_3'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m05_couplers/auto_pc . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_5'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_ds . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_4'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m06_couplers/auto_pc . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_6'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_ds . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_5'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m07_couplers/auto_pc . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_ds_7'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_ds . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_pc_6'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/m08_couplers/auto_pc . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'MIPSfpga_system_auto_us_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_us . INFO: [BD 41-1379] This design does not contain any processor. 
+// Tcl Message: Exporting to file C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system.hwh Generated Block Design Tcl file C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system_bd.tcl Generated Hardware Definition File C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.hwdef 
+// Tcl Message: INFO: [BD 41-1662] The design 'MIPSfpga_system.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Verilog Output written to : C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.v Verilog Output written to : C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system_wrapper.v 
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,011 MB (+2479kb) [00:18:02]
+// Tcl Message: Wrote  : <C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/MIPSfpga_system.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system.hwh Generated Block Design Tcl file C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hw_handoff/MIPSfpga_system_bd.tcl Generated Hardware Definition File C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.srcs/sources_1/bd/MIPSfpga_system/hdl/MIPSfpga_system.hwdef 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec 16 15:04:32 2018] Launched synth_1... Run output will be captured here: C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/synth_1/runme.log [Sun Dec 16 15:04:32 2018] Launched impl_1... Run output will be captured here: C:/Users/47872/Desktop/Gauss/system_ability_2018/MIPSfpga_axi4_ddr/MIPSfpga_axi4.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:16 ; elapsed = 00:01:20 . Memory (MB): peak = 1177.438 ; gain = 35.559 
+// Elapsed time: 79 seconds
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,013 MB. GUI used memory: 94 MB. Current time: 12/16/18 3:33:22 PM CST
